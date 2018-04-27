@@ -11,6 +11,8 @@ namespace ovning_tre_Oskar_Ljungdahl
 
         public string Color { get; set; }
         public string Sounds { get; set; }
+
+
         public Cat(int age, string name, double height, double weight, string color, string sounds) : base(age, name, height, weight)
         {
 
